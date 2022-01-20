@@ -65,8 +65,6 @@ const passwordChecker = (password1, password2) => {
   return valid;
 };
 
-
-
 const isEmailValid = (email) => {
   const re =
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -152,17 +150,15 @@ function validateMyForm(
   );
 }
 
-
-
 const myArray = [
-  { name: 'chris', location: 'on city' },
-  { name: 'chris2', location: 'coon city' },
-  { name: 'chris3', location: 'ran city' },
-  { name: 'chris4', location: 'ron city' }
+  { name: "chris", location: "on city" },
+  { name: "chris2", location: "coon city" },
+  { name: "chris3", location: "ran city" },
+  { name: "chris4", location: "ron city" },
 ];
 
-console.table(myArray)
+console.table(myArray);
 
-console.log(myArray)
-console.log(myArray[0])
-console.log(myArray[0].location)
+console.log(myArray);
+console.log(myArray[0]);
+console.log(myArray[0].location);
