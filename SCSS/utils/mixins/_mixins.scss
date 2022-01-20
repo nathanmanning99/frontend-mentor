@@ -1,0 +1,11 @@
+@mixin flex-grid-items($cols) {
+    display: flex;
+  
+    > * {
+      $item-width: 100% / $cols;
+      width: $item-width;
+      box-sizing: border-box;
+    }
+  }
+  
+  

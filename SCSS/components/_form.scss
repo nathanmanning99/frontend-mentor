@@ -1,0 +1,66 @@
+.enquiry-form {
+  background-color: #fff;
+  border-radius: 1em;
+  box-shadow: 1px 8px 5px hsla(249, 10%, 26%, 0.5);
+  padding: 2.5em 1.5em;
+  &__field {
+    &--input {
+      border: 1px solid hsla(246, 25%, 77%, 0.5);
+      border-radius: 0.25em;
+      padding: 1em;
+      width: 100%;
+      font-weight: 700;
+      color: $dark-blue;
+      margin-bottom: 3em;
+    }
+  }
+
+  &__validation {
+    display: flex;
+    margin: -2.6em 0 9px 0px;
+    color: $red;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  &__button {
+    border: none;
+    font-size: 1rem;
+    background-color: $green;
+    padding: 0.85em;
+    border-radius: 0.25em;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    transition: background-color 150ms ease-in-out;
+    font-weight: 500;
+    font-family: $poppins;
+
+    &:hover {
+      background-color: hsl(154, 60%, 42%);
+    }
+  }
+
+  &__tos {
+    color: $grayish-blue;
+    display: block;
+    font-size: 12px;
+    padding-top: 12px;
+  }
+}
+
+.promo {
+  background-color: $blue;
+  border-radius: 1em;
+  box-shadow: 1px 8px 5px hsla(249, 10%, 26%, 0.5);
+  padding: 0.5em 9em;
+  margin-bottom: 1rem;
+
+  &__text {
+    margin: auto;
+    width: max-content;
+    padding: rem-calc(11) rem-calc(0);
+  }
+}

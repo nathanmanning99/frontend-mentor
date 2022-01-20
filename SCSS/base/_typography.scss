@@ -1,0 +1,21 @@
+body {
+    font-family: $poppins !important;
+}
+
+h1,p {
+    color: #fff;
+}
+
+input {
+    color: $dark-blue;
+}
+
+small {
+    font-size: 12px;
+}
+
+a {
+    color: $red;
+    font-weight: bold;
+    text-decoration: none;
+}
