@@ -61,7 +61,6 @@ const passwordChecker = (password1, password2) => {
     showSuccess(password2);
     valid = true;
   }
-
   return valid;
 };
 

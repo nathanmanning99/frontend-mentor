@@ -24,19 +24,18 @@
   }
 
   &__button {
-    border: none;
-    font-size: rem-calc(16);
     background-color: $green;
-    padding: rem-calc(13.6);
+    border: none;
     border-radius: rem-calc(4);
     color: white;
-    font-weight: 500;
     cursor: pointer;
+    font-size: rem-calc(16);
+    font-family: $poppins;
+    font-weight: 500;
+    padding: rem-calc(13.6);
     width: 100%;
     text-transform: uppercase;
     transition: background-color 150ms ease-in-out;
-    font-weight: 500;
-    font-family: $poppins;
 
     &:hover {
       background-color: hsl(154, 60%, 42%);
