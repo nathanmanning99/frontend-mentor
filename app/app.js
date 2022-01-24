@@ -149,16 +149,3 @@ function validateMyForm(
     })
   );
 }
-
-const myArray = [
-  { name: "chris", location: "on city" },
-  { name: "chris2", location: "coon city" },
-  { name: "chris3", location: "ran city" },
-  { name: "chris4", location: "ron city" },
-];
-
-console.table(myArray);
-
-console.log(myArray);
-console.log(myArray[0]);
-console.log(myArray[0].location);
