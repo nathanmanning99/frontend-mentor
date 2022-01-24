@@ -1,23 +1,23 @@
 .enquiry-form {
   background-color: #fff;
-  border-radius: 1em;
-  box-shadow: 1px 8px 5px hsla(249, 10%, 26%, 0.5);
-  padding: 2.5em 1.5em;
+  border-radius: rem-calc(16);
+  box-shadow: rem-calc(1) rem-calc(8) rem-calc(5) hsla(249, 10%, 26%, 0.5);
+  padding: rem-calc(40) rem-calc(24);
   &__field {
     &--input {
-      border: 1px solid hsla(246, 25%, 77%, 0.5);
+      border: rem-calc(1) solid hsla(246, 25%, 77%, 0.5);
       border-radius: 0.25em;
-      padding: 1em;
+      padding: rem-calc(16);
       width: 100%;
       font-weight: 700;
       color: $dark-blue;
-      margin-bottom: 3em;
+      margin-bottom: rem-calc(48);
     }
   }
 
   &__validation {
     display: flex;
-    margin: -2.6em 0 9px 0px;
+    margin: rem-calc(-41.6) 0 rem-calc(9) 0;
     color: $red;
     font-style: italic;
     font-weight: 500;
@@ -25,10 +25,10 @@
 
   &__button {
     border: none;
-    font-size: 1rem;
+    font-size: rem-calc(16);
     background-color: $green;
-    padding: 0.85em;
-    border-radius: 0.25em;
+    padding: rem-calc(13.6);
+    border-radius: rem-calc(4);
     color: white;
     font-weight: 500;
     cursor: pointer;
@@ -46,21 +46,7 @@
   &__tos {
     color: $grayish-blue;
     display: block;
-    font-size: 12px;
-    padding-top: 12px;
-  }
-}
-
-.promo {
-  background-color: $blue;
-  border-radius: 1em;
-  box-shadow: 1px 8px 5px hsla(249, 10%, 26%, 0.5);
-  padding: 0.5em 9em;
-  margin-bottom: 1rem;
-
-  &__text {
-    margin: auto;
-    width: max-content;
-    padding: rem-calc(11) rem-calc(0);
+    font-size: rem-calc(12);
+    padding-top: rem-calc(12);
   }
 }

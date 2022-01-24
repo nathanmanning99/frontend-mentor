@@ -1,0 +1,42 @@
+.promo {
+  background-color: $blue;
+  border-radius: rem-calc(16);
+  box-shadow: rem-calc(1) rem-calc(8) rem-calc(5) hsla(249, 10%, 26%, 0.5);
+  padding: rem-calc(8) rem-calc(144);
+  margin-bottom: rem-calc(16);
+
+  &__text {
+    margin: auto;
+    width: max-content;
+    padding: rem-calc(11) rem-calc(0);
+  }
+}
+
+.flex-2-cols {
+  @include flex-grid-items(2);
+  gap: rem-calc(10);
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.info {
+  text-align: left;
+  margin: auto;
+  &__title {
+    font-size: rem-calc(40);
+    line-height: 1;
+    margin: 0;
+  }
+
+  &__description {
+    font-size: rem-calc(16);
+    padding-right: rem-calc(15);
+  }
+}

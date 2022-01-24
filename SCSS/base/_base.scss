@@ -51,33 +51,4 @@ ul {
       width: 80%;
     }
   }
-
-  .flex-2-cols {
-    @include flex-grid-items(2);
-    gap: 10px;
-  }
-
-  .sign-up {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-  }
-
-  .info {
-    text-align: left;
-    margin: auto;
-    &__title {
-      font-size: 2.5rem;
-      line-height: 1;
-      margin: 0;
-    }
-
-    &__description {
-      font-size: 1rem;
-      padding-right: rem-calc(15);
-    }
-  }
 }

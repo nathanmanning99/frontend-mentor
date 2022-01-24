@@ -1,21 +1,22 @@
 body {
-    font-family: $poppins !important;
+  font-family: $poppins !important;
 }
 
-h1,p {
-    color: #fff;
+h1,
+p {
+  color: $white;
 }
 
 input {
-    color: $dark-blue;
+  color: $dark-blue;
 }
 
 small {
-    font-size: 12px;
+  font-size: rem-calc(12);
 }
 
 a {
-    color: $red;
-    font-weight: bold;
-    text-decoration: none;
+  color: $red;
+  font-weight: bold;
+  text-decoration: none;
 }
