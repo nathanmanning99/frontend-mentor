@@ -109,6 +109,7 @@ function validateMyForm(
   // if form is valid then submit
   if (formValid) {
     form.style.display = "none";
+    document.querySelector(".enquiry-form__success").style.display = "block";
   }
 
   const debounce = (fn, delay = 500) => {

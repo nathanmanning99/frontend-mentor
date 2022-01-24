@@ -61,7 +61,7 @@ a {
 
 .enquiry-form__field--input {
   border: 0.0625rem solid rgba(185, 182, 211, 0.5);
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
   padding: 1rem;
   width: 100%;
   font-weight: 700;
@@ -95,6 +95,27 @@ a {
 
 .enquiry-form__button:hover {
   background-color: #2bab74;
+}
+
+.enquiry-form__success {
+  display: none;
+}
+
+.enquiry-form__success h1 {
+  color: #38cc8c;
+}
+
+.enquiry-form__success h1::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: block;
+  color: #38cc8c;
+  content: "\f2b6";
+  padding-bottom: 0.625rem;
+}
+
+.enquiry-form__success p {
+  color: #3e3c49;
 }
 
 .enquiry-form__tos {

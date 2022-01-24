@@ -1,11 +1,14 @@
 @mixin flex-grid-items($cols) {
-    display: flex;
-  
-    > * {
-      $item-width: 100% / $cols;
-      width: $item-width;
-      box-sizing: border-box;
-    }
+  display: flex;
+
+  > * {
+    $item-width: 100% / $cols;
+    width: $item-width;
+    box-sizing: border-box;
   }
-  
-  
+}
+
+@mixin fontAwesome() {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}

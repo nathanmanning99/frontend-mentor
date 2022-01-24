@@ -1,12 +1,12 @@
 .enquiry-form {
-  background-color: #fff;
+  background-color: $white;
   border-radius: rem-calc(16);
   box-shadow: rem-calc(1) rem-calc(8) rem-calc(5) hsla(249, 10%, 26%, 0.5);
   padding: rem-calc(40) rem-calc(24);
   &__field {
     &--input {
       border: rem-calc(1) solid hsla(246, 25%, 77%, 0.5);
-      border-radius: 0.25em;
+      border-radius: rem-calc(4);
       padding: rem-calc(16);
       width: 100%;
       font-weight: 700;
@@ -40,6 +40,23 @@
 
     &:hover {
       background-color: hsl(154, 60%, 42%);
+    }
+  }
+
+  &__success {
+    display: none;
+    h1 {
+      color: $green;
+      &::before {
+        @include fontAwesome;
+        display: block;
+        color: $green;
+        content: "\f2b6";
+        padding-bottom: rem-calc(10);
+      }
+    }
+    p {
+      color: $dark-blue;
     }
   }
 
