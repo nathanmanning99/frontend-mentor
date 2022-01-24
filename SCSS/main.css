@@ -29,32 +29,8 @@ ul {
   width: 90%;
 }
 
-@media (min-width: 48rem) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-  }
-}
-
-@media (min-width: 48rem) and (min-width: 64rem) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-  }
-}
-
-@media (min-width: 48rem) and (min-width: 85.375rem) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-}
-
 body {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -132,13 +108,12 @@ a {
   background-color: #6055a5;
   border-radius: 1rem;
   box-shadow: 0.0625rem 0.5rem 0.3125rem rgba(62, 60, 73, 0.5);
-  padding: 0.5rem 9rem;
+  padding: 0.3125rem 1rem;
   margin-bottom: 1rem;
 }
 
 .promo__text {
   margin: auto;
-  width: max-content;
   padding: 0.6875rem 0rem;
 }
 
@@ -175,5 +150,41 @@ a {
 .info__description {
   font-size: 1rem;
   padding-right: 0.9375rem;
+}
+
+@media (max-width: 48rem) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+  .flex-2-cols {
+    display: block !important;
+  }
+  .enquiry,
+  .info {
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .sign-up {
+    margin: 0.9375rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+}
+
+@media (min-width: 85.375rem) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

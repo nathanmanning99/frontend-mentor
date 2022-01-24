@@ -2,12 +2,11 @@
   background-color: $blue;
   border-radius: rem-calc(16);
   box-shadow: rem-calc(1) rem-calc(8) rem-calc(5) hsla(249, 10%, 26%, 0.5);
-  padding: rem-calc(8) rem-calc(144);
+  padding: rem-calc(5) rem-calc(16);
   margin-bottom: rem-calc(16);
 
   &__text {
     margin: auto;
-    width: max-content;
     padding: rem-calc(11) rem-calc(0);
   }
 }
@@ -38,5 +37,41 @@
   &__description {
     font-size: rem-calc(16);
     padding-right: rem-calc(15);
+  }
+}
+
+@media (max-width: $tablet) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+  .flex-2-cols {
+    display: block !important;
+  }
+  .enquiry,
+  .info {
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .sign-up {
+    margin: rem-calc(15);
+  }
+}
+
+@media (min-width: $laptop) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+}
+
+@media (min-width: $desktop) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 }
