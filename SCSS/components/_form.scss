@@ -1,11 +1,11 @@
 .enquiry-form {
   background-color: $white;
   border-radius: rem-calc(16);
-  box-shadow: rem-calc(1) rem-calc(8) rem-calc(5) hsla(249, 10%, 26%, 0.5);
+  box-shadow: rem-calc(1) rem-calc(8) rem-calc(5) $dark-blue;
   padding: rem-calc(40) rem-calc(24);
   &__field {
     &--input {
-      border: rem-calc(1) solid hsla(246, 25%, 77%, 0.5);
+      border: rem-calc(1) solid $grayish-blue;
       border-radius: rem-calc(4);
       padding: rem-calc(16);
       width: 100%;
@@ -38,7 +38,7 @@
     transition: background-color 150ms ease-in-out;
 
     &:hover {
-      background-color: hsl(154, 60%, 42%);
+      background-color: $green;
     }
   }
 

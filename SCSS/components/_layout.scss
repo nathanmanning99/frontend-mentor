@@ -1,7 +1,7 @@
 .promo {
   background-color: $blue;
   border-radius: rem-calc(16);
-  box-shadow: rem-calc(1) rem-calc(8) rem-calc(5) hsla(249, 10%, 26%, 0.5);
+  box-shadow: rem-calc(1) rem-calc(8) rem-calc(5) $dark-blue;
   padding: rem-calc(5) rem-calc(16);
   margin-bottom: rem-calc(16);
 

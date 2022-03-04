@@ -55,12 +55,12 @@ a {
 .enquiry-form {
   background-color: #fff;
   border-radius: 1rem;
-  box-shadow: 0.0625rem 0.5rem 0.3125rem rgba(62, 60, 73, 0.5);
+  box-shadow: 0.0625rem 0.5rem 0.3125rem #3e3c49;
   padding: 2.5rem 1.5rem;
 }
 
 .enquiry-form__field--input {
-  border: 0.0625rem solid rgba(185, 182, 211, 0.5);
+  border: 0.0625rem solid #b9b6d3;
   border-radius: 0.25rem;
   padding: 1rem;
   width: 100%;
@@ -93,7 +93,7 @@ a {
 }
 
 .enquiry-form__button:hover {
-  background-color: #2bab74;
+  background-color: #38cc8c;
 }
 
 .enquiry-form__success {
@@ -127,7 +127,7 @@ a {
 .promo {
   background-color: #6055a5;
   border-radius: 1rem;
-  box-shadow: 0.0625rem 0.5rem 0.3125rem rgba(62, 60, 73, 0.5);
+  box-shadow: 0.0625rem 0.5rem 0.3125rem #3e3c49;
   padding: 0.3125rem 1rem;
   margin-bottom: 1rem;
 }

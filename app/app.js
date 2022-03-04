@@ -86,14 +86,14 @@ const showSuccess = (input) => {
   input.style.border = "1.5px solid hsl(154, 59%, 51%)";
 };
 
-function validateMyForm(
+const validateMyForm = (
   form,
   firstname,
   lastname,
   email,
   password1,
   password2
-) {
+) => {
   checkFirstName(firstname);
   checkLastName(lastname);
   checkEmail(email);
