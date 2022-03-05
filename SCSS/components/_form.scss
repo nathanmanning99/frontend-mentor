@@ -24,16 +24,6 @@
   }
 
   &__button {
-    background-color: $green;
-    border: none;
-    border-radius: rem-calc(4);
-    color: white;
-    cursor: pointer;
-    font-size: rem-calc(16);
-    font-family: $poppins;
-    font-weight: 500;
-    padding: rem-calc(13.6);
-    width: 100%;
     text-transform: uppercase;
     transition: background-color 150ms ease-in-out;
 
